@@ -78,11 +78,13 @@ float f = 70.0/3.0; // Initialize with expression
 ## Files in This Chapter
 
 - `variables.c`: Example demonstrating variable declaration, definition, and initialization
+- `constant.c`: Example showing how to use constants with the `const` keyword
 - `C Data Types.pdf`: Detailed reference on C data types
 - `C Variables, Constants and Literals.pdf`: Comprehensive guide on variables and constants
 
 ## Example Code Analysis
 
+### variables.c
 The `variables.c` file demonstrates:
 
 1. **External Declaration**: `extern int a, b;` declares variables without defining them
@@ -90,6 +92,14 @@ The `variables.c` file demonstrates:
 3. **Initialization**: `a = 10; b = 20;` assigns values to variables
 4. **Operations**: `c = a + b;` performs arithmetic operations
 5. **Output**: Uses `printf()` to display results with format specifiers
+
+### constant.c
+The `constant.c` file demonstrates the use of constants:
+
+1. **Constant Declaration**: `const int LENGTH = 10;` declares integer constants
+2. **Character Constants**: `const char NEWLINE = '\n';` shows character constants
+3. **Using Constants**: `area = LENGTH * WIDTH;` uses constants in calculations
+4. **Output**: Demonstrates printing constants and special characters
 
 ## Format Specifiers
 - `%d`: Integer
